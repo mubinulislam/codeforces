@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+ 
+int main(){
+    int n;
+    int a,b,c;
+    int number=0;
+    cin>>n;
+    for (int i = 0; i < n; i++)
+    {
+        cin>>a>>b>>c;
+        if (a+b+c>1)
+        {
+            number++;
+        }
+        else {
+            continue;
+        }
+    }
+    cout<<number;
+}
