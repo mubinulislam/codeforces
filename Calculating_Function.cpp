@@ -2,8 +2,10 @@
 
 using namespace std;
 int main(){
-    int n;
-    int sum;
+    long long n; 
+    // for this problem there input range is 10^15, 
+    //neither (int) and (long) type variable can store such value, so use (long long)
+    long long sum;
     cin >> n;
     if (n%2==0){
         sum=n/2;
