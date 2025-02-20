@@ -28,14 +28,14 @@ int main(){
             input[index_min]=temp;
         }
     }
-    cout << input << endl;
+    //cout << input << endl;
 // after sorting we iteret through the string char by char to find the duplicates
     for (int k=0; k<n;k++){
         if (input[k]!=input[k+1]){
             unique+=1;
         }
     }
-    cout << "unique: " << unique << endl;
+    //cout << "unique: " << unique << endl;
     if (unique%2!=0){
         cout << "IGNORE HIM!";
     }
