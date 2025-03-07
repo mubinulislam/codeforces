@@ -21,7 +21,7 @@ int main(){
 
     for(int j=0;j<rows;j++){
         y+=matrix[j][1];
-        //cout << y << " ";
+        
     }
 
     for(int k=0;k<rows;k++){
@@ -34,5 +34,4 @@ int main(){
     else{
         cout << "NO" << endl;
     }
-    cout << x <<" " << y << " " << z;
 }
