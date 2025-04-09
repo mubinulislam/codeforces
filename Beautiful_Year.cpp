@@ -13,7 +13,6 @@ int main(){
         string str_year=to_string(year);
         
         sort (str_year.begin(),str_year.end());
-        //cout << str_year <<" "<< year<<endl;
         for(int i=0;i<str_year.length();i++){
             if (str_year[i]==str_year[i+1]){
                 d_year=false;
